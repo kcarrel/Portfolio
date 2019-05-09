@@ -11,11 +11,11 @@
 	height: 3px;
 	margin: 0 0 5px 0;
 	background: #fff;
-	background-color: #5fffed;
+	background-color: #023859;
 	transition: all 0.5s ease-out;
 }
 .menu-btn .btn-line:nth-child(2) {
-	background: #fff;
+	background: #03658C;
 }
 .menu-btn.close {
 	transform: rotate(180deg);
@@ -125,8 +125,8 @@
 }
 
 body {
-	background: #444;
-	color: #023859de;
+	background: #5AA3BF;
+	color: #041e3e;
 	height: 100%;
 	margin: 0;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -145,8 +145,7 @@ body::after {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	background: #023859;
-	opacity: 0.5;
+
 }
 
 h1,
@@ -180,7 +179,7 @@ header {
 }
 
 .text-secondary {
-	color: #5fffed;
+	color: #03658C;
 }
 
 main {
@@ -214,7 +213,7 @@ main#home h1 {
 	grid-area: bioimage;
 	margin: auto;
 	border-radius: 50%;
-	border: #5fffed 3px solid;
+	border: #041e3e 3px solid;
 }
 .about-info .bio {
 	grid-area: bio;
@@ -230,9 +229,9 @@ main#home h1 {
 	grid-area: job3;
 }
 .about-info .job {
-	background: #515151;
+	background: #ffffffab;
 	padding: 0.5rem;
-	border-bottom: #5fffed 5px solid;
+	border-bottom: #041e3e 5px solid;
 }
 .about-info .job a {
 	color: #5fffed;
